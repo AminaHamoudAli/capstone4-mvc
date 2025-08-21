@@ -1,0 +1,9 @@
+{
+  "name": "amina/capstone4-mvc1",
+  "description": "Core MVC with Database & Authentication",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": { "App\\": "app/" }
+  }
+}

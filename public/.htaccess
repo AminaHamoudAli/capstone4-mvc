@@ -1,4 +1,7 @@
+
 RewriteEngine On
+# عدّل المسار التالي إن اختلف اسم مجلد مشروعك
+RewriteBase /capstone4-mvc/public/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
